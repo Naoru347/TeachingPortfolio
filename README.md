@@ -89,7 +89,6 @@ While this is a personal teaching portfolio, I welcome feedback and suggestions 
 - Share ideas for additional resources
 
 ## License
-[License details to be determined]
-
+All rights the author, Joshua M. Paiz (2025)
 ---
-*This portfolio is maintained by [Your Name] and represents an ongoing journey in computer science education.*
+*This portfolio is maintained by Joshua M. Paiz and represents an ongoing journey in computer science education.*
