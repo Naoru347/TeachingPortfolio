@@ -205,3 +205,8 @@ Before finalizing any syllabus:
 - [ ] Spell-check completed
 - [ ] Headers properly nested
 - [ ] Tables properly formatted
+
+---
+Last Updated: 2024-12-03  
+Version: 1.0.0  
+[Change Log](./changelog.md)

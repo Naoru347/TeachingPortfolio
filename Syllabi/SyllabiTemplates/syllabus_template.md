@@ -116,3 +116,8 @@ This course consists of:
 This syllabus is subject to change. All changes will be announced [specify where] and an updated version will be posted [specify where].
 
 Last updated: [Date]
+
+---
+Last Updated: 2024-12-03  
+Version: 1.0.0  
+[Change Log](./changelog.md)
