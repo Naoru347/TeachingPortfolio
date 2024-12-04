@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.1.1] - 2024-12-04
+- Moved "Course Schedule" header to be with accompanying body text
+
 ## [1.1.0] - 2024-12-04
 
 ### Added
@@ -27,11 +30,12 @@ This version represents a significant evolution of the syllabus, particularly in
 
 ## [1.0.1] - 2024-12-03
 
-Fixed typos. Generated outline.
+- Fixed typos
+- Generated outline
 
 ## [1.0.0] - 2024-12-03
 
-### Project Start
+- Document created
 
 ---
 Current Version: intro_prog_syllabus.md - 1.1.0  

@@ -150,10 +150,6 @@ This course consists of:
 | D | 60-69 | Shows partial understanding of programming concepts but has significant gaps. Programs may work partially but lack proper structure or documentation. Will need to strengthen fundamentals before advancing to higher-level courses. |
 | F | Below 60 | Has not demonstrated sufficient understanding of core programming concepts. Unable to consistently write working programs. Will need to retake the course to meet prerequisite requirements. |
 
-## Course Schedule
-
-Note: This is a project course outline and should be seen as tentative. Updates will be posted to the course LMS and will take precedence over this document.
-
 ## Course Policies
 
 ### Attendance and Participation
@@ -460,6 +456,8 @@ Remember: Our differences strengthen our learning community and prepare us for s
 
 ## Course Schedule
 
+Note: This is a project course outline and should be seen as tentative. Updates will be posted to the course LMS and will take precedence over this document.
+
 | Week | Topics | Readings | Due Dates |
 |------|---------|----------|-----------|
 | 1 | Introduction to Programming and Python Environment Setup: Understanding what programming is, installing Python and VS Code, writing first programs. Basic syntax and the interactive shell. | Ch. 1: Introduction to Programming, Appendix A: Development Environment Setup | Lab 1: Environment Setup and First Program |
@@ -483,5 +481,5 @@ Remember: Our differences strengthen our learning community and prepare us for s
 
 ---
 Last Updated: 2024-12-04  
-Version: 1.1.0  
+Version: 1.1.1  
 [Change Log](./changelog.md)
