@@ -6,11 +6,26 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
 ## Repository Structure
 
 ### Course Materials
+
 - **Syllabi/**
   - Introduction to Programming
   - Data Structures and Algorithms
   - Database Systems
   - Web Development
+
+- **Preparation/**
+  - Concept maps
+  - Learning progression plans
+  - Teaching reflection notes
+  - Student misconception guides
+  - Resource organization strategies
+
+- **Templates/**
+  - Assignment templates
+  - Lab report formats
+  - Project documentation guides
+  - Peer review forms
+  - Student feedback questionnaires
 
 - **Lesson Plans/**
   - Daily lesson outlines
@@ -76,6 +91,22 @@ This portfolio emphasizes:
 - Inclusive teaching practices
 - Real-world applications
 
+## Teaching Preparation Materials
+The Preparation folder documents my systematic approach to course development and continuous improvement:
+- Pre-semester planning documents
+- Concept mapping and knowledge structure analysis
+- Common misconception identification and remediation strategies
+- Teaching reflection templates and completed reflections
+- Resource organization and accessibility planning
+
+## Template Resources
+The Templates folder contains standardized formats designed to:
+- Ensure consistent assignment structure across courses
+- Provide clear documentation guidelines for students
+- Facilitate effective peer review processes
+- Enable meaningful student feedback collection
+- Support systematic project development and presentation
+
 ## Development Timeline
 This is an active portfolio that grows with my teaching experience. Major updates occur monthly, with ongoing additions of new materials and refinements based on teaching experiences and student feedback.
 
@@ -89,6 +120,7 @@ While this is a personal teaching portfolio, I welcome feedback and suggestions 
 - Share ideas for additional resources
 
 ## License
-All rights the author, Joshua M. Paiz (2025)
+
+Copyright © 2025 Joshua M. Paiz. All rights reserved.
 ---
-*This portfolio is maintained by Joshua M. Paiz and represents an ongoing journey in computer science education.*
+*This portfolio is represents an ongoing and in-progress journey in computer science education.*
