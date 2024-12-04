@@ -1,4 +1,7 @@
 # General Teaching
+Scaffolding is going to be massively important when teaching others to code. It'll be vitally important to ensure that the *proper* sequencing is maintained. For example, introducing global/local scope in one lesson and then returning to it in another to introduce variable shadowing and arbitrary arguments. 
+
+Early on, it may be helpful to have students working with exisiting code snippets but tasking them with doing things like adding new features, debugging problems in the code, and writing test cases with the goal being to encourage more active learning. 
 # Teaching Python
 
 ## General Reflections
@@ -6,10 +9,20 @@ Specific to teaching Python is the question of when/how to address PEP standards
 
 ## Coding-specific Reflections
 
+### Problem Decomposition
+- **Challenge**: Knowing how to break down a larger problem into smaller, solvable parts and knowing when you've reached the most atomic parts of a problem.
+    - **Why It's Hard**: Students that are new to decomposition, or new to a specific domain, may not know how small is small enough. Others may be such higher-order thinkers that seeing the "leaves on the branches on the trees in the forest" is particularly challenging when they can't see past the forest to begin with.
+    - **Solution**: Walk students through how programs use functions and these functions are a natural resault of the decomposition process. 
+
 ### Modular Thinking
 - **Challenge**: Understanding why the program is organized into a function (`temperature_converter()`).
   - **Why It’s Hard**: Students new to programming may struggle to see why code reusability and organization matter.
   - **Solution**: Compare a script without functions to one with functions, highlighting the benefits of modular design.
+
+### Code Reusability
+- **Challenge**: Students often write repetative code instead of leveraging code reusability to minimize redundancy.
+    - **Why It's Hard**: Students may be thinking through a problem too linearly/discretely instead of modularly. 
+    - **Solution**: HAve students ID repetative code and work together to refactor it into usable functions (helper functions).
 
 ### Edge Cases
 - **Challenge**: Anticipating and handling edge cases like missing units (e.g., `100`) or unsupported formats (e.g., `abcF`).
@@ -23,6 +36,20 @@ Specific to teaching Python is the question of when/how to address PEP standards
 
 
 ## Python-specific Reflections
+
+### Pythonic Idioms
+- **Challenge**: Students may write verbos or un-Pythonic code instead of leveraging Python's built-in features (e.g., list comprehension, unpacking, etc.)
+    - **Why It's Hard**: Beginners often rely more simplistic approaches or lack familiarity with the intricacies of Python.
+    - **Solution**: Introduce Pythonic alterinatives by rewriting common patterns (e.g., the generator expression)
+    ```python
+    total_salary = sum(emp["salary"] for emp in employees)
+
+    # versus
+
+    total_salary = 0
+    for emp in employees:
+        total_salary += emp["salary"]
+    ```
 
 ### Input Parsing and Validation
 - **Challenge**: Understanding how to extract the numeric value and unit from a string like `100F`.
@@ -38,6 +65,16 @@ Specific to teaching Python is the question of when/how to address PEP standards
 - **Challenge**: Using `temp_input[:-1]` to get the numeric part of the input and `temp_input[-1]` to get the unit.
   - **Why It’s Hard**: Beginners may not fully grasp Python’s string indexing and slicing.
   - **Solution**: Provide hands-on exercises focused on string slicing before introducing it in the program.
+
+### *args and *kwargs
+- **Challenge**: Python's support for arbitrary arguments can confuse beginners. 
+    - **Why It's Hard**: Students may struggle to understand when and why to use these features, as well as how they differ from regular parameters. 
+    - **Solution**: Use practice examples to explain these concepts. E.g., show how *args allow syou to pass multiple items of that type to a function, as in: 
+    ```python
+    def print_employees(*employees)
+        for emp in employees: 
+            print(f"- {emp['name']}, {emp['position']})
+    ```
 
 ### Error Handling
 - **Challenge**: Writing validation checks (e.g., ensuring input is numeric and the unit is valid).
