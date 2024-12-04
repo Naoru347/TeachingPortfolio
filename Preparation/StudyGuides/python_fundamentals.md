@@ -577,6 +577,195 @@ def calculate_investment_return(principal, rate, years):
     """
     return principal * (1 + rate) ** years
 ```
+
+# Part 4: Data Structure in Python
+
+## Introduction to Data Structures
+
+**Data structures** form the foundation of organizing and managing data in our programs. Just as we use different types of physical containers to organize items in real life - filing cabinets for documents, toolboxes for organizing tools, address books for contacts - Python provides various data structures to store and manipulate information efficiently. Understanding which structure to use and when helps us write more effective and maintainable code.
+
+## Lists: Python's Versatile Container
+
+**Lists** serve as Python's most flexible and commonly used data structure. Think of a list like a shopping list - you can add items, remove them, rearrange their order, or replace items with different ones. This flexibility makes lists ideal for managing collections that need to change over time.
+
+### Basic List Operations
+
+Let's explore fundamental list operations through practical examples that demonstrate their versatility:
+
+```python
+# Starting with a basic shopping list
+shopping_list = ["milk", "bread", "eggs"]
+
+# Adding items using append() - like adding to the end of your list
+shopping_list.append("cheese")
+print(f"After adding cheese: {shopping_list}")
+
+# Inserting items at specific positions
+# Like remembering something urgent and putting it first
+shopping_list.insert(0, "medicine")
+print(f"After inserting medicine first: {shopping_list}")
+
+# Removing items - like crossing things off
+removed_item = shopping_list.pop()  # Removes and returns last item
+print(f"Removed {removed_item}")
+print(f"List is now: {shopping_list}")
+
+# Accessing items by position (indexing)
+first_item = shopping_list[0]  # Remember: indexing starts at 0
+print(f"First item is: {first_item}")
+
+# Slicing - getting a subset of items
+first_three = shopping_list[:3]
+print(f"First three items: {first_three}")
+```
+
+### Advanced List Operations and List Comprehensions
+
+*List comprehensions* provide a powerful way to create new lists based on existing ones. They combine the functionality of a loop and list creation into a single, readable line. Consider these practical applications:
+
+```python
+# Original list of prices
+prices = [10, 20, 30, 40, 50]
+
+# List comprehension for calculating sale prices (50% off)
+sale_prices = [price * 0.5 for price in prices]
+print(f"Original prices: {prices}")
+print(f"Sale prices: {sale_prices}")
+
+# Filtering with list comprehension
+affordable = [price for price in prices if price <= 30]
+print(f"Affordable items (under 30): {affordable}")
+
+# Common list operations for numerical analysis
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers)
+average = total / len(numbers)
+maximum = max(numbers)
+minimum = min(numbers)
+```
+
+## Tuples: The Immutable Sequence
+
+**Tuples** act like sealed packages - once created, their contents cannot be changed. This *immutability* makes them perfect for representing fixed collections of related data, such as coordinates or color values. Here's how we can work with tuples effectively:
+
+```python
+# Creating tuples for fixed data
+rgb_color = (255, 128, 0)  # Orange color in RGB
+coordinate = (34.0522, -118.2437)  # Geographic coordinate
+
+# Tuple unpacking - extracting values
+x, y = coordinate
+print(f"Latitude: {x}, Longitude: {y}")
+
+# Using tuples for multiple return values
+def get_circle_properties(radius):
+    """Calculate area and circumference of circle."""
+    pi = 3.14159
+    area = pi * radius ** 2
+    circumference = 2 * pi * radius
+    return (area, circumference)
+
+# Using the returned tuple
+circle_props = get_circle_properties(5)
+print(f"Circle properties: {circle_props}")
+```
+
+## Sets: Managing Unique Collections
+
+**Sets** enforce *uniqueness* in collections, making them ideal for removing duplicates or performing mathematical set operations. Think of sets like exclusive clubs where each member can only appear once. Let's explore their practical applications:
+
+```python
+# Creating sets of students in different classes
+science_students = {"Alice", "Bob", "Charlie"}
+math_students = {"Bob", "David", "Eve", "Charlie"}
+
+# Finding students in both classes (intersection)
+in_both = science_students & math_students
+print(f"Students taking both classes: {in_both}")
+
+# Finding all unique students (union)
+all_students = science_students | math_students
+print(f"All unique students: {all_students}")
+
+# Finding students in science but not math (difference)
+science_only = science_students - math_students
+print(f"Students only in science: {science_only}")
+```
+
+## Dictionaries: Key-Value Relationships
+
+**Dictionaries** store information using *key-value pairs*, similar to how a phone book stores phone numbers (values) associated with names (keys). This structure allows for quick lookups and organized data storage. Here's how we can leverage dictionaries:
+
+```python
+# Creating a contact dictionary
+contacts = {
+    "Alice": {"phone": "555-0123", "email": "alice@example.com"},
+    "Bob": {"phone": "555-0124", "email": "bob@example.com"}
+}
+
+# Adding new contacts
+contacts["Charlie"] = {
+    "phone": "555-0125",
+    "email": "charlie@example.com"
+}
+
+# Safe value access using get()
+email = contacts.get("David", {}).get("email", "No email found")
+print(f"David's email: {email}")
+
+# Dictionary comprehension for email directory
+emails = {name: info["email"] for name, info in contacts.items()}
+print(f"Email directory: {emails}")
+```
+
+## String Manipulation
+
+Strings in Python come with powerful manipulation capabilities. Understanding string operations is crucial for text processing and data formatting. Let's explore common string operations:
+
+```python
+# Basic string methods
+text = "  Hello, World!  "
+print(f"Stripped: {text.strip()}")
+print(f"Uppercase: {text.upper()}")
+print(f"Lowercase: {text.lower()}")
+
+# String splitting and joining
+sentence = "Python is amazing"
+words = sentence.split()
+print(f"Words: {words}")
+
+# Joining words with a delimiter
+new_sentence = "-".join(words)
+print(f"Joined with hyphens: {new_sentence}")
+
+# String formatting using f-strings
+name = "Alice"
+age = 25
+formatted = f"{name} is {age} years old"
+print(formatted)
+
+# Finding and replacing
+text = "Python is great and Python is powerful"
+replaced = text.replace("Python", "Programming")
+print(f"After replacement: {replaced}")
+```
+
+## Best Practices and Common Patterns
+
+When working with Python data structures, several key principles guide effective usage:
+
+The choice of data structure significantly impacts program performance and readability. Lists provide flexibility but may not be the most efficient for all operations. Dictionaries offer fast lookups but require more memory. Sets excel at maintaining unique collections and performing set operations.
+
+For lists, consider using list comprehensions when creating new lists based on existing ones. They provide a more readable and often more efficient alternative to traditional for loops.
+
+When working with dictionaries, the get() method provides safer access to values than direct key lookup, helping prevent KeyError exceptions in cases where keys might not exist.
+
+Sets prove invaluable when working with unique collections or when you need to perform mathematical set operations. They can significantly simplify code that would otherwise require complex loops and conditional statements.
+
+String manipulation benefits from using built-in methods rather than manual character manipulation. The f-string formatting introduced in Python 3.6+ offers a readable and maintainable way to create formatted strings.
+
+Remember to consider the specific requirements of your task when selecting which data structure to use. The right choice can make your code more efficient, more readable, and easier to maintain.
+
 ---
 Last Updated: 2024-12-04  
 Version: 1.2.0  

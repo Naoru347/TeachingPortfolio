@@ -2,6 +2,25 @@
 Scaffolding is going to be massively important when teaching others to code. It'll be vitally important to ensure that the *proper* sequencing is maintained. For example, introducing global/local scope in one lesson and then returning to it in another to introduce variable shadowing and arbitrary arguments. 
 
 Early on, it may be helpful to have students working with exisiting code snippets but tasking them with doing things like adding new features, debugging problems in the code, and writing test cases with the goal being to encourage more active learning. 
+
+### Conceptualizing the Problem
+- **Challenge**: Students may struggle to envision the larger picture, like how a library system operates or how the components of the program interact.
+  - **Why It’s Hard**: Beginners often focus narrowly on individual parts of the program without grasping how they connect to solve the overall problem.
+  - **Solution**: Use a real-world analogy (e.g., "Imagine managing a library manually with paper records") to establish the context. Then, map that to digital components: books as records, borrowing as updates, etc.
+
+### Iterative Development
+- **Challenge**: Students may feel overwhelmed when presented with the complete challenge and try to tackle everything at once.
+  - **Why It’s Hard**: The multi-step nature of the program—handling input, manipulating data, and producing output—can feel daunting for beginners.
+  - **Solution**: Teach iterative development by breaking the problem into smaller tasks. For instance:
+    1. Start with adding books to the catalog.
+    2. Introduce borrowing functionality.
+    3. Add availability checks.
+
+### Debugging and Testing
+- **Challenge**: Debugging issues like typos in dictionary keys (`catalog[title]`) or input validation can confuse students.
+  - **Why It’s Hard**: Error messages for incorrect key access or type mismatches may be difficult for students to interpret.
+  - **Solution**: Encourage "debugging as a skill" by having students intentionally create common bugs (e.g., accessing a nonexistent key) and then guide them in resolving the errors.
+
 # Teaching Python
 
 ## General Reflections
@@ -85,6 +104,13 @@ Specific to teaching Python is the question of when/how to address PEP standards
 - **Challenge**: Using `f"{value:.1f}"` to format numbers to one decimal place.
   - **Why It’s Hard**: Students may not understand string interpolation or formatting syntax.
   - **Solution**: Provide examples of formatted strings and practice exercises to build familiarity.
+
+  ### Dictionary Operations
+- **Challenge**: Understanding how to manipulate nested dictionaries (e.g., `catalog[title]["copies"]`) or use methods like `.get()` to safely access values.
+  - **Why It’s Hard**: Students may not fully understand the hierarchical structure of dictionaries or how to handle missing keys.
+  - **Solution**: Provide visual representations of nested dictionaries and hands-on exercises to practice accessing and modifying values.
+
+### String Manipulation and Validation
 
 # Teaching Java
 # Teaching Databases
