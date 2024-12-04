@@ -19,6 +19,8 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
   - Teaching reflection notes
   - Student misconception guides
   - Resource organization strategies
+  - Personal study guides to prepare for teaching
+  - Personal study code to prepare for teaching
 
 - **Templates/**
   - Assignment templates
