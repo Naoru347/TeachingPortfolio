@@ -459,7 +459,7 @@ Remember: Our differences strengthen our learning community and prepare us for s
 Note: This is a project course outline and should be seen as tentative. Updates will be posted to the course LMS and will take precedence over this document.
 
 | Week | Topics | Readings | Due Dates |
-|------|---------|----------|-----------|
+|------|-----------|----------|-----------|
 | 1 | Introduction to Programming and Python Environment Setup: Understanding what programming is, installing Python and VS Code, writing first programs. Basic syntax and the interactive shell. | Ch. 1: Introduction to Programming, Appendix A: Development Environment Setup | Lab 1: Environment Setup and First Program |
 | 2 | Variables, Data Types, and Basic Operations: Numbers, strings, and booleans. Input/output operations. Basic arithmetic and string operations. | Ch. 2: Data Types and Expressions | Lab 2: Basic Calculations Program, Project 1 Assigned: Calculator Application |
 | 3 | Control Flow I - Conditional Statements: Boolean expressions, if/elif/else statements, comparison operators, logical operators. | Ch. 3: Control Structures (First Half) | Lab 3: Decision Making Programs, Project 1 Due |
