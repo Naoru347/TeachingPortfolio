@@ -70,6 +70,16 @@ Specific to teaching Python is the question of when/how to address PEP standards
         total_salary += emp["salary"]
     ```
 
+### Package and Module Organization
+- **Challenge**: Students often struggle to understand Python's package hierarchy and the import system. 
+  - **Why It's Hard**: The concept of Python's module search path and package structure is often abstract and differes from simple script execution that beginners are familiar with.
+  - **Solution**: Use physical analogies (like a library's organization catalog or GPS navigation) to explain how Python looks for modules. Create visual diagrams showing the relationship between packages, modules, and imports. 
+ 
+### Import Conventions and Best Practices
+- **Challenge**: Students may be confused about when to use different import styles
+  - **Why It's Hard**: The flexibility of Python's import system can be overwhelming and students may not understand the implications of idfferent import approaches on code readability and namespace management.
+  - **Solution**: Create clear guidelines for different import scenarios, using real-world examples to demonstrate each apporach and when they're appropriate. Show how imports affect code readability and maintenance. 
+
 ### Input Parsing and Validation
 - **Challenge**: Understanding how to extract the numeric value and unit from a string like `100F`.
   - **Why It’s Hard**: It involves slicing strings, understanding string methods like `.strip()` and `.upper()`, and checking conditions.
