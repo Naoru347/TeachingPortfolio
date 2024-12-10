@@ -5,15 +5,15 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
 
 ## Repository Structure
 
-### Course Materials
+### Course_Materials/
 
-- **Syllabi/**
+- **./Syllabi/**
   - Introduction to Programming
   - Data Structures and Algorithms
   - Database Systems
   - Web Development
 
-- **Preparation/**
+- **./Preparation/**
   - Concept maps
   - Learning progression plans
   - Teaching reflection notes
@@ -22,70 +22,61 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
   - Personal study guides to prepare for teaching
   - Personal study code to prepare for teaching
 
-- **Templates/**
+- **./Templates/**
   - Assignment templates
   - Lab report formats
   - Project documentation guides
   - Peer review forms
   - Student feedback questionnaires
 
-- **Lesson Plans/**
+- **./Lesson_Plans/**
   - Daily lesson outlines
   - Activity timing guides
   - Learning objectives
   - Assessment strategies
 
-- **Teaching Resources/**
+- **./Teaching_Resources/**
   - Lecture slides
   - Code demonstrations
   - Lab activities
   - Project specifications
   - Assessment rubrics
 
-### Core Concept Guides
+### Core_Concept_Guides/
 
 Detailed teaching guides and materials for fundamental CS concepts:
 
-- **Programming Foundations/**
+- **./Programming_Foundations/**
   - Data types and memory representation
   - Control structures and program flow
   - Functions and methods
   - Error handling and debugging
 
-- **Data Structures/**
+- **./Data_Structures/**
   - Arrays and linked lists
   - Stacks and queues
   - Trees and graphs
   - Algorithm analysis
 
-### Teaching Demonstrations
+### Teaching_Demonstrations/
 - Recorded teaching sessions
 - Example code walkthroughs
 - Interactive learning materials
 - Visualization tools
 
-### Professional Development
+### Professional_Development/
 - Teaching philosophy statement
 - Industry certifications
 - Conference presentations
 - Professional memberships
 
-## Study Plans and Resources
-This repository includes comprehensive study plans for:
-- Programming fundamentals
-- Data structures and algorithms
-- Computer architecture
-- Database systems
-- Web development
-- Security concepts
-
-## Assessment Materials
+## Assessment_Materials/
 - Project rubrics
 - Code review guidelines
 - Lab evaluation criteria
 - Portfolio project templates
 
-## Best Practices
+## Connection to Best Practices
 This portfolio emphasizes:
 - Active learning strategies
 - Project-based learning
@@ -93,7 +84,7 @@ This portfolio emphasizes:
 - Inclusive teaching practices
 - Real-world applications
 
-## Teaching Preparation Materials
+## A Note on Teaching Preparation Materials
 The Preparation folder documents my systematic approach to course development and continuous improvement:
 - Pre-semester planning documents
 - Concept mapping and knowledge structure analysis
@@ -101,7 +92,7 @@ The Preparation folder documents my systematic approach to course development an
 - Teaching reflection templates and completed reflections
 - Resource organization and accessibility planning
 
-## Template Resources
+## A Note on Template Resources
 The Templates folder contains standardized formats designed to:
 - Ensure consistent assignment structure across courses
 - Provide clear documentation guidelines for students
