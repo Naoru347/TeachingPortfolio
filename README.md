@@ -69,6 +69,14 @@ Detailed teaching guides and materials for fundamental CS concepts:
 - Industry certifications
 - Conference presentations
 - Professional memberships
+  - **./Continuing_Education/**
+    - Lists all completed continuing education (e.g., professions certificates and short courses)
+  - **./Degrees/**
+    - Provides copies of all completed degress
+  - **./Industry_Certifications/**
+    - Provides copies of all awarded industry certifications (e.g, Security+, AWS Cloud Practitioner, CCNA, etc.)
+  - **./Professional_Memberships/**
+    - Provides proof-of-membership for relevant and tangential professional organizations
 
 ## Assessment_Materials/
 - Project rubrics
