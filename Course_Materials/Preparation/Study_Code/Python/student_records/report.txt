@@ -1,0 +1,19 @@
+Student Grade Report
+------------------
+
+John Smith (1001)
+Average Grade: 85.0
+
+Emma Wilson (1002)
+Average Grade: 91.0
+
+Michael Brown (1003)
+Average Grade: 81.0
+
+Subject Analysis
+------------------
+Math - Highest Grade: 90
+Science - Highest Grade: 92
+History - Highest Grade: 95
+
+Class Average: 85.7
