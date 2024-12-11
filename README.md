@@ -65,7 +65,7 @@ Detailed teaching guides and materials for fundamental CS concepts:
 - Visualization tools
 
 ### Professional_Development/
-- Teaching philosophy statement
+- Statement of teaching philosophy
 - Industry certifications
 - Conference presentations
 - Professional memberships
