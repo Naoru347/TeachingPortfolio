@@ -9,7 +9,8 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
 
 - **./Syllabi/**
   - Introduction to Programming
-  - Data Structures and Algorithms
+  - Data Structures
+  - Algorithms
   - Database Systems
   - Web Development
 
