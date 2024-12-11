@@ -53,6 +53,16 @@ Specific to teaching Python is the question of when/how to address PEP standards
   - **Why It’s Hard**: Seeing the program as a cohesive whole requires practice in breaking down and assembling components.
   - **Solution**: Walk through the code step by step with example inputs, showing how data flows and transforms.
 
+### Exception Handling in Python
+- **Challenge**: Students may have difficulty understanding how to properly raise, handle, and propagate exceptions in their Python code.
+  - **Why It's Hard**: The flow of control when an exception is raised, as well as the differences between built-in and custom exceptions, can be confusing for beginners.
+  - **Solution**: Explain the purpose and importance of exceptions, and demonstrate how to use try-except-else-finally blocks to handle exceptions at the appropriate scope. Discuss common built-in exception types and guide students in creating their own custom exceptions.
+
+### Logging and Debugging
+- **Challenge**: Students may struggle to effectively use logging and debugging tools to identify and resolve issues in their code.
+  - **Why It's Hard**: Beginners may not understand the value of logging or how to use a debugger to step through their code and inspect variable values.
+  - **Solution**: Introduce logging early on, showing how it can help with troubleshooting and providing useful information. Demonstrate the use of a debugger, such as the one integrated into your IDE, and have students practice using it to debug their programs.
+
 
 ## Python-specific Reflections
 
@@ -105,7 +115,7 @@ Specific to teaching Python is the question of when/how to address PEP standards
             print(f"- {emp['name']}, {emp['position']})
     ```
 
-### Error Handling
+### Validating Input
 - **Challenge**: Writing validation checks (e.g., ensuring input is numeric and the unit is valid).
   - **Why It’s Hard**: They may not know how to structure checks or use methods like `.isdigit()` and `.replace()`.
   - **Solution**: Explain why validation is important and give simpler examples of input validation (e.g., checking for integers first).
