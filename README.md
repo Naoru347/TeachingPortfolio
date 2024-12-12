@@ -84,6 +84,16 @@ Detailed teaching guides and materials for fundamental CS concepts:
 - Code review guidelines
 - Lab evaluation criteria
 - Portfolio project templates
+  - **./Reflective_Exit_Exams/**
+    - Provides exit exam standard protocol for all courses
+    - Contains a sample question bank organized by class-type
+    - Outlines a sample student preparation guides
+    - Delimits grading and assessment protocol used by the instructor to ensure fairness and conformity of experience
+  - **./final_project_prompt_intro/**
+    - Focuses on the *Introduction to Programming* course
+    - Provides student assignment prompt
+    - Includes requisite starter code
+    - Outlines a sample work-plan for students
 
 ## Connection to Best Practices
 This portfolio emphasizes:
