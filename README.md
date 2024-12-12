@@ -89,7 +89,7 @@ Detailed teaching guides and materials for fundamental CS concepts:
     - Contains a sample question bank organized by class-type
     - Outlines a sample student preparation guides
     - Delimits grading and assessment protocol used by the instructor to ensure fairness and conformity of experience
-  - **./final_project_prompt_intro/**
+  - **./final_project_intro/**
     - Focuses on the *Introduction to Programming* course
     - Provides student assignment prompt
     - Includes requisite starter code
