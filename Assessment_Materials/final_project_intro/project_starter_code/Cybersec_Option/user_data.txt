@@ -1,0 +1,11 @@
+# Username,Password
+alice,pa55word!
+bob,secure123
+charlie,letmein
+diana,12345678
+eve,hunter2
+frank,qwerty
+grace,password1
+heidi,ilovecode
+ivan,admin123
+judy,guest2023
