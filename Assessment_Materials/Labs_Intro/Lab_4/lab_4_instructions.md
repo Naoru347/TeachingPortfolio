@@ -73,4 +73,8 @@
 ## **Hints**
 - Test your program with edge cases (e.g., guessing 1, 100, or numbers outside the range).
 - Think about how you might handle invalid input (e.g., letters instead of numbers).
-- Use `
+
+---
+## **Lab Report Reminder**
+Don’t forget to write up your 1-2 page lab report using the provided template. Include reflections on how this skill could be applied to the **Midterm** or **Final Project**. 
+

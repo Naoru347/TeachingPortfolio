@@ -56,3 +56,7 @@ If you finish early, extend your program to allow the user to:
 - Add an extra decision-making feature of your choice (e.g., determining if the number is positive, negative, or zero).  
 
 ---
+
+## **Lab Report Reminder**
+Don’t forget to write up your 1-2 page lab report using the provided template. Include reflections on how this skill could be applied to the **Midterm** or **Final Project**. 
+
