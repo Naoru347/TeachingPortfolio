@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.2.0] - 2024-12-12
+- Updated final project syllabus description to better align with draft documents included elsewhere in the portfolio
+
 ## [1.1.1] - 2024-12-04
 - Moved "Course Schedule" header to be with accompanying body text
 

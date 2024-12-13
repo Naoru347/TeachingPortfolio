@@ -480,6 +480,6 @@ Note: This is a project course outline and should be seen as tentative. Updates 
 *Note: Readings are based on "Python Programming: An Introduction to Computer Science" by John Zelle. Additional online resources and documentation will be provided throughout the course.*
 
 ---
-Last Updated: 2024-12-04  
-Version: 1.1.1  
+Last Updated: 2024-12-13  
+Version: 1.2.0  
 [Change Log](./changelog.md)
