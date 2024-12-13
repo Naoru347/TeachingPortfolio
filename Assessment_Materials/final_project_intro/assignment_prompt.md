@@ -124,13 +124,12 @@ The provided code will include a basic login system where usernames and password
 
 | **Date**       | **Deliverable**                                  | **Description**                                                                                     |
 |----------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Week 9         | **Project Kickoff**                              | Starter code distributed; students explore options and start brainstorming ideas.                   |
-| Week 10        | **Project Proposal**                             | Submit a short form selecting your project option and outlining one or two enhancements you plan to add. |
-| Week 11        | **Starter Code Walkthrough**                     | In-class session to review and understand the starter code. Ask questions and plan next steps.      |
-| Week 12        | **Progress Check 1**                             | Submit your partially implemented project for feedback (e.g., core functionality completed).         |
-| Week 13        | **Peer Review Session**                          | Exchange projects with classmates for peer feedback on functionality and clarity.                   |
-| Week 14        | **Progress Check 2**                             | Submit an updated version with enhancements partially implemented.                                  |
-| Week 15        | **Final Submission**                             | Submit your completed project (codebase, README, reflection).  
+| Week 11         | **Project Kickoff**                              | Starter code distributed; students explore options and start brainstorming ideas.                   |
+| Week 12        | **Project Proposal**                             | Submit a short form selecting your project option and outlining one or two enhancements you plan to add. |
+| Week 13        | **Starter Code Walkthrough**                     | In-class session to review and understand the starter code. Ask questions and plan next steps.      |
+| Week 14        | **Progress Check 1**                             | Submit your partially implemented project for feedback (e.g., core functionality completed).         |
+| Week 15        | **Peer Review Session**                          | Exchange projects with classmates for peer feedback on functionality and clarity.                   |
+| Week 16        | **Final Submission**                             | Submit your completed project (codebase, README, reflection).  
 
 
 ---
