@@ -133,7 +133,7 @@ This course consists of:
 
 | Component | Weight | Description |
 |-------------------|---------|-------------|
-| Programming Projects | 40% | Six individual programming assignments that progressively build in complexity. Each project emphasizes specific programming concepts while incorporating previous learning. Projects include design documentation, implementation, and testing. |
+| Programming Projects | 40% | Five individual programming assignments that progressively build in complexity. Each project emphasizes specific programming concepts while incorporating previous learning. Projects include design documentation, implementation, and testing. |
 | Laboratory Work | 15% | Weekly guided programming exercises completed during lab sessions. These hands-on activities provide immediate practice with concepts introduced in lectures. Attendance and completion required. |
 | Midterm Project | 10% | A comprehensive programming project completed in small teams, incorporating all concepts from the first half of the semester. Includes design documentation, implementation, testing, and a presentation. |
 | Final Project | 15% | Individual capstone project demonstrating mastery of course concepts through the development of a Python program tailored to a real-world application. Students will choose from three project tracks—Data Science, Computer Science and Engineering, or Cybersecurity—and enhance provided starter code to implement core functionality and creative features. Each project will include detailed documentation, a reflection on the development process, and an optional demonstration to showcase their work. The final project is designed to highlight practical skills and provide a portfolio-worthy artifact aligned with students’ career goals. |
