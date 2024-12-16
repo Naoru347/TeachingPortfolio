@@ -29,6 +29,37 @@ Each team will have **10 minutes** to present their project to the class. Use th
 - **Explain the Code**:
   - Walk through a few critical sections of your code (e.g., a function or algorithm).
   - Keep it high-level and focus on important concepts rather than every detail.
+  
+---
+
+### **Advice for Talking About Code**
+
+For many of you, this may be the first time explaining code to an audience. Here are some tips to help you succeed:
+
+1. **Start with the Big Picture**:
+   - Briefly explain the purpose of the code section before diving into specifics.
+   - Example: "This function calculates the average of a list of numbers. It's a core part of our data analysis feature."
+
+2. **Focus on Key Concepts**:
+   - Highlight the logic behind the code (e.g., loops, conditionals, functions) rather than reading it line-by-line.
+   - Example: "We used a for loop here to iterate through the list and add each value to a running total."
+
+3. **Use Visuals or Analogies**:
+   - If possible, use a diagram or analogy to make the code more relatable.
+   - Example: "Think of this dictionary as a filing cabinet where each key is a label and the value is the information inside."
+
+4. **Simplify Technical Jargon**:
+   - Avoid overly complex terms when a simpler explanation will do.
+   - Example: Instead of "asynchronous API call," say "a background task that fetches data while the program runs."
+
+5. **Engage Your Audience**:
+   - Pause occasionally to ask if your explanation makes sense.
+   - Invite questions during or after the presentation.
+
+6. **Be Honest About Challenges**:
+   - It's okay to say, "This part of the code was challenging, and here's how we approached it."
+
+---
 
 #### **3. Reflections (2-3 minutes)**
 - **Challenges and Solutions**:
@@ -54,18 +85,6 @@ Each team will have **10 minutes** to present their project to the class. Use th
    - Prepare at least one question for each team to help them reflect on their work.
 3. **Provide Feedback**:
    - Be constructive and supportive when offering feedback.
-
----
-
-## **Grading Criteria**
-
-| **Category**              | **Weight** | **Description**                                                                                     |
-|---------------------------|------------|-----------------------------------------------------------------------------------------------------|
-| **Project Demonstration** | 40%        | Clear explanation of project purpose, functionality, and problem-solving approach.                  |
-| **Code Explanation**      | 20%        | High-level discussion of key code sections, demonstrating understanding of programming concepts.    |
-| **Reflections**           | 20%        | Thoughtful discussion of challenges, lessons learned, and future improvements.                     |
-| **Presentation Skills**   | 10%        | Clear and confident delivery, good pacing, and effective use of time.                              |
-| **Team Collaboration**    | 10%        | Evidence of equal contributions and teamwork.                                                      |
 
 ---
 
