@@ -1,7 +1,11 @@
 # Changelog
 
+## [1.3.0] 2024-12-23
+- Altered week 10 lab structure to be a product demo instead 
+
 ## [1.2.1] - 2024-12-16
 - Updated week 8 & 9 lab to focus on supporting project work
+
 ## [1.2.0] - 2024-12-12
 - Updated final project syllabus description to better align with draft documents included elsewhere in the portfolio
 

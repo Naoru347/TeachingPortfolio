@@ -469,7 +469,7 @@ Note: This is a project course outline and should be seen as tentative. Updates 
 | 7 | Lists and Basic Data Structures: List operations, iteration through lists, list methods. | Ch. 5: Lists and Collections | Lab 7: List Manipulation, Project 3 Due |
 | 8 | Midterm Project Week: Team formation, project planning, and initial development. Introduction to version control with Git. | Project Planning Guide (Online Resource) | Midterm Project Assigned, Lab 8: Git Basics & Project Management |
 | 9 | Strings and Text Processing: String methods, text manipulation, formatting. | Ch. 6: Strings and Text Processing | Lab 9: Midterm Project Working Time, Midterm Project Check-in |
-| 10 | Dictionaries and Sets: Key-value pairs, dictionary operations, set operations. | Ch. 7: Dictionaries and Sets | Lab 10: Dictionary Applications, Midterm Project Due |
+| 10 | Dictionaries and Sets: Key-value pairs, dictionary operations, set operations. | Ch. 7: Dictionaries and Sets | Lab 10: Midterm Project Demos, Midterm Project Due |
 | 11 | File Operations: Reading and writing files, file handling, basic error handling. | Ch. 8: Files and Exceptions | Lab 11: File Processing, Project 4 Assigned: Data Processing Application |
 | 12 | Error Handling and Debugging: Try/except blocks, debugging techniques, testing strategies. | Ch. 8: Files and Exceptions (continued) | Lab 12: Debugging Exercises, Project 4 Due |
 | 13 | Introduction to Object-Oriented Programming: Basic class definition, objects, methods. | Ch. 9: Classes and Objects | Lab 13: Basic Classes, Final Project Proposal Due |
@@ -480,6 +480,6 @@ Note: This is a project course outline and should be seen as tentative. Updates 
 *Note: Readings are based on "Python Programming: An Introduction to Computer Science" by John Zelle. Additional online resources and documentation will be provided throughout the course.*
 
 ---
-Last Updated: 2024-12-16  
-Version: 1.2.1  
+Last Updated: 2024-12-23
+Version: 1.3.0 
 [Change Log](./changelog.md)
