@@ -89,11 +89,19 @@ Detailed teaching guides and materials for fundamental CS concepts:
     - Contains a sample question bank organized by class-type
     - Outlines a sample student preparation guides
     - Delimits grading and assessment protocol used by the instructor to ensure fairness and conformity of experience
-  - **./final_project_intro/**
+  - **./Regular_Projects_Intro/**
+    - Focuses on the *Introduction to Programming* course
+    - Provides student assignment prompts
+    - Provides unified assessment rubric for use on all regular projects
+  - **./Final_Project_Intro/**
     - Focuses on the *Introduction to Programming* course
     - Provides student assignment prompt
     - Includes requisite starter code
     - Outlines a sample work-plan for students
+  - **./Labs_Intro/**
+    - Lab instructions for 15 weeks of labs
+    - Starter code for the first 5-7 weeks of labs to scaffold learners activities
+    - Additional tracking and data files as needed
 
 ## Connection to Best Practices
 This portfolio emphasizes:
