@@ -72,3 +72,25 @@ As you give out hints, update teacher_hint_log.xlsx to track num hints provided 
 - **Details:** The script doesn’t validate special characters properly. Update the logic to ensure special characters don’t bypass the number-checking rule.
 
 ---
+
+## **Hints for Debugging: `library_manager.py`**
+
+---
+
+#### **Hint 1 (Surface-Level):**
+- **Hint:** "Why does borrowing one book update the borrow count for all books? Look carefully at the loop in the `borrow_book` function."
+- **Details:** The loop is iterating over every book in the `borrow_count` dictionary and incrementing the count for all books instead of just the selected one.
+
+#### **Hint 2 (Deeper Clue):**
+- **Hint:** "Examine how you’re updating the borrow count. Could you modify the loop to target only the selected book?"
+- **Details:** Instead of looping over all books in `borrow_count`, directly access the dictionary key for the specific book being borrowed.
+
+#### **Hint 3 (Direct Fix Guidance):**
+- **Hint:** "Replace the loop in `borrow_book` with a direct update to `borrow_count[book_name]`. This ensures only the selected book is updated."
+- **Details:** Replace the loop with:
+  ```python
+  borrow_count[book_name] += 1
+  ```
+
+---
+
