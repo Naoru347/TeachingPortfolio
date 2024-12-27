@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.3.1] 2024-12-27
+- Changed file name
+
 ## [1.3.0] 2024-12-23
 - Altered week 10 lab structure to be a product demo instead 
 
@@ -47,5 +50,5 @@ This version represents a significant evolution of the syllabus, particularly in
 - Document created
 
 ---
-Current Version: intro_prog_syllabus.md - 1.1.1  
-Last Updated: 2024-12-04
+Current Version: intro_prog_syllabus.md - 1.3.1  
+Last Updated: 2024-12-27

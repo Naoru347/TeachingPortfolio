@@ -20,9 +20,9 @@
 
 ## Course Description
 
-This foundation course introduces students to core programming concepts using Python, a widely-used and accessible programming language. Students will develop computational thinking skills and learn how computers process information through hands-on coding exercises and projects. The course emphasizes problem-solving strategies, algorithm development, and writing clear, well-documented code.
+This foundation course introduces students to core programming concepts using Java, a versitile, widely-used programming language. Students will develop computational thinking skills and learn how computers process information through hands-on coding exercises and projects. The course emphasizes problem-solving strategies, algorithm development, and writing clear, well-documented code.
 
-Through practical examples and interactive coding sessions, students will learn to break down complex problems into manageable steps, implement solutions using Python, and verify their programs work correctly. By the end of the course, students will be able to design, write, and debug basic Python programs that solve real-world problems.
+Through practical examples and interactive coding sessions, students will learn to break down complex problems into manageable steps, implement solutions using Java, and verify their programs work correctly. By the end of the course, students will be able to design, write, and debug basic Java programs that solve real-world problems.
 
 ## Learning Objectives
 
@@ -41,7 +41,8 @@ Upon successful completion of this course, students will be able to:
 3. Perform arithmetic and logical operations in a programming context
 4. Convert between different data types safely and appropriately
 5. Implement input/output operations to interact with users
-6. Write clear, well-documented code following Python conventions
+6. Write clear, well-documented code following Java conventions
+7. Understand Java's object-orientied (OOP) programming principles
 
 ### Control Structures
 1. Implement sequential program flow using proper statement ordering
@@ -73,19 +74,20 @@ Upon successful completion of this course, students will be able to:
 3. Handle common file operation errors
 4. Work with different file formats (txt, csv)
 5. Implement basic data persistence using files
+6. Work with Java's standard libraries for I/O & utilities
 
 ### Program Design
 1. Apply naming conventions consistently for variables, functions, and files
 2. Structure programs for readability and maintenance
 3. Write clear comments that explain code purpose and implementation
-4. Follow Python style guidelines (PEP 8)
+4. Follow Java style conventions
 5. Organize code into appropriate modules and functions
 
 ### Development Tools and Practices
 1. Use an Integrated Development Environment (IDE) effectively
 2. Apply version control concepts using Git for basic operations
 3. Debug programs using IDE tools and print statements
-4. Read and understand Python documentation and error messages
+4. Read and understand Java documentation and error messages
 5. Use online resources responsibly to solve programming problems
 
 ### Collaboration and Communication
@@ -106,18 +108,18 @@ Upon successful completion of this course, students will be able to:
 
 1. Technology Requirements:
    - Personal computer (Windows, Mac, or Linux)
-   - Python 3.x (latest stable version)
+   - Java JDK 17 or higher
    - Visual Studio Code text editor
+        - Will require Java-specific add-ons for intellicode, etc.
    - Git version control system
    - Web browser (Chrome or Firefox recommended)
 
 2. Textbook:
-   - "Python Programming: An Introduction to Computer Science - 4th edition" by John Zelle
-   - (Optional) "Automate the Boring Stuff with Python" by Al Sweigart (free online)
+   - "Java: How to Program 11th edition" by Paul & Harvey Deitel
 
 3. Online Resources:
    - Course website with lecture materials and assignments
-   - Python documentation (python.org)
+   - Java documentation (https://docs.oracle.com/en/java/)
    - Class Git repository for code examples and projects
       - https://github.com/REPOLINK
 
@@ -136,7 +138,7 @@ This course consists of:
 | Programming Projects | 40% | Five individual programming assignments that progressively build in complexity. Each project emphasizes specific programming concepts while incorporating previous learning. Projects include design documentation, implementation, and testing. |
 | Laboratory Work | 15% | Weekly guided programming exercises completed during lab sessions. These hands-on activities provide immediate practice with concepts introduced in lectures. Attendance and completion required. |
 | Midterm Project | 10% | A comprehensive programming project completed in small teams, incorporating all concepts from the first half of the semester. Includes design documentation, implementation, testing, and a presentation. |
-| Final Project | 15% | Individual capstone project demonstrating mastery of course concepts through the development of a Python program tailored to a real-world application. Students will choose from three project tracks—Data Science, Computer Science and Engineering, or Cybersecurity—and enhance provided starter code to implement core functionality and creative features. Each project will include detailed documentation, a reflection on the development process, and an optional demonstration to showcase their work. The final project is designed to highlight practical skills and provide a portfolio-worthy artifact aligned with students’ career goals. |
+| Final Project | 15% | Individual capstone project demonstrating mastery of course concepts through the development of a Java program tailored to a real-world application. Students will choose from three project tracks—Data Science, Computer Science and Engineering, or Cybersecurity—and enhance provided starter code to implement core functionality and creative features. Each project will include detailed documentation, a reflection on the development process, and an optional demonstration to showcase their work. The final project is designed to highlight practical skills and provide a portfolio-worthy artifact aligned with students’ career goals. |
 | Reflective Exit Exam | 15% | An individual oral examination where students reflect on and defend their learning journey. Students will explain key programming concepts, discuss their growth as programmers, analyze their project work, and demonstrate understanding of core course objectives through structured discussion with the instructor. The exam includes code analysis, problem-solving scenarios, and metacognitive reflection on learning strategies. |
 | Participation | 5% | Active engagement in class discussions, peer code reviews, and version control contributions. Includes completion of in-class coding exercises and participation in collaborative debugging sessions. |
 
@@ -288,8 +290,8 @@ Learning to program requires both technical resources and personal support. We'v
 #### Development Environment Setup
 We provide detailed guides to help you establish and maintain your programming environment:
 
-- Comprehensive Python Installation Guide for Windows, Mac, and Linux systems
-- Visual Studio Code setup and configuration documentation including recommended extensions for Python development
+- Comprehensive Java Installation Guide for Windows, Mac, and Linux systems
+- Visual Studio Code setup and configuration documentation including recommended extensions for Java development
 - Step-by-step instructions for installing Git and configuring your first repository
 - Troubleshooting guides for common installation and configuration issues
 
@@ -298,12 +300,12 @@ These guides are available on our course LMS site under "Technical Resources," w
 #### Course-Specific Tools
 Throughout the course, you'll use several development tools. We provide support documentation for:
 
-- Python IDLE and command line interface
-- Visual Studio Code features for Python development
+- Java IDLE and command line interface
+- Visual Studio Code features for Java development
 - Git version control system basics
-- Python debugger tools
+- Java debugger tools
 - Unit testing frameworks
-- Code style checkers (PEP 8 compliance tools)
+- Code style checkers
 
 #### Lab Access Information
 Our computer lab provides a consistent, supported development environment:
@@ -316,7 +318,7 @@ Hours of Operation:
 - Sunday: 12:00 PM - 6:00 PM
 
 Lab Features:
-- 30 workstations with full Python development environments
+- 30 workstations with full Java development environments
 - Printing services for code review and documentation
 - Technical support staff available during all open hours
 - Collaborative workspace for group programming sessions
@@ -460,26 +462,26 @@ Note: This is a project course outline and should be seen as tentative. Updates 
 
 | Week | Topics | Readings | Due Dates |
 |------|-----------|----------|-----------|
-| 1 | Introduction to Programming and Python Environment Setup: Understanding what programming is, installing Python and VS Code, writing first programs. Basic syntax and the interactive shell. | Ch. 1: Introduction to Programming, Appendix A: Development Environment Setup | Lab 1: Environment Setup and First Program |
+| 1 | Introduction to Programming and Java Development Environment Setup: Understanding what programming is, installing Java and VS Code, writing first programs. Basic syntax and compiling/running programs (javac/java commands). | Ch. 1: Introduction to Programming, Appendix A: Development Environment Setup | Lab 1: Environment Setup and First Program |
 | 2 | Variables, Data Types, and Basic Operations: Numbers, strings, and booleans. Input/output operations. Basic arithmetic and string operations. | Ch. 2: Data Types and Expressions | Lab 2: Basic Calculations Program, Project 1 Assigned: Calculator Application |
-| 3 | Control Flow I - Conditional Statements: Boolean expressions, if/elif/else statements, comparison operators, logical operators. | Ch. 3: Control Structures (First Half) | Lab 3: Decision Making Programs, Project 1 Due |
-| 4 | Control Flow II - Loops: while loops, for loops, nested loops. Loop control statements (break, continue). | Ch. 3: Control Structures (Second Half) | Lab 4: Iteration Exercises, Project 2 Assigned: Pattern Generation |
+| 3 | Control Flow I - Conditional Statements: Boolean expressions, if/else if/else statements, comparison operators, logical operators. | Ch. 3: Control Structures (First Half) | Lab 3: Decision Making Programs, Project 1 Due |
+| 4 | Control Flow II - Loops: while loops, do-while loops, for loops, nested loops. Loop control statements (break, continue). | Ch. 3: Control Structures (Second Half) | Lab 4: Iteration Exercises, Project 2 Assigned: Pattern Generation |
 | 5 | Functions I: Function definition and calls, parameters, arguments, return values. | Ch. 4: Functions (First Half) | Lab 5: Function Building, Project 2 Due |
 | 6 | Functions II: Variable scope, documentation, modular programming principles. | Ch. 4: Functions (Second Half) | Lab 6: Function Applications, Project 3 Assigned: Temperature Converter Library |
-| 7 | Lists and Basic Data Structures: List operations, iteration through lists, list methods. | Ch. 5: Lists and Collections | Lab 7: List Manipulation, Project 3 Due |
+| 7 | Arrays, ArrayLists and Other Basic Data Structures: Arrays & ArrayList operations, iteration through these structures, structure-specific methods. | Ch. 5: Arrays and ArrayLists | Lab 7: Array Manipulation, Project 3 Due |
 | 8 | Midterm Project Week: Team formation, project planning, and initial development. Introduction to version control with Git. | Project Planning Guide (Online Resource) | Midterm Project Assigned, Lab 8: Git Basics & Project Management |
 | 9 | Strings and Text Processing: String methods, text manipulation, formatting. | Ch. 6: Strings and Text Processing | Lab 9: Midterm Project Working Time, Midterm Project Check-in |
-| 10 | Dictionaries and Sets: Key-value pairs, dictionary operations, set operations. | Ch. 7: Dictionaries and Sets | Lab 10: Midterm Project Demos, Midterm Project Due |
-| 11 | File Operations: Reading and writing files, file handling, basic error handling. | Ch. 8: Files and Exceptions | Lab 11: File Processing, Project 4 Assigned: Data Processing Application |
+| 10 | HashMaps and HashSets: Key-value pairs, map operations, set operations. Understanding HashMap and HashSet in the java.util package, and when to use these data structures| Ch. 7: Dictionaries and Sets | Lab 10: Midterm Project Demos, Midterm Project Due |
+| 11 | File Operations: Reading and writing files, file handling, basic error handling. Understanding File, Scanner, and PrintWriter classes | Ch. 8: Files and Exceptions | Lab 11: File Processing, Project 4 Assigned: Data Processing Application |
 | 12 | Error Handling and Debugging: Try/except blocks, debugging techniques, testing strategies. | Ch. 8: Files and Exceptions (continued) | Lab 12: Debugging Exercises, Project 4 Due |
-| 13 | Introduction to Object-Oriented Programming: Basic class definition, objects, methods. | Ch. 9: Classes and Objects | Lab 13: Basic Classes, Final Project Proposal Due |
+| 13 | Introduction to Object-Oriented Programming: Understanding classes, objects, constructors, methods, etc.. | Ch. 9: Classes and Objects | Lab 13: Basic Classes, Final Project Proposal Due |
 | 14 | Algorithm Design and Problem Solving: Problem decomposition, algorithm development, pseudocode. | Ch. 10: Algorithm Development | Lab 14: Algorithm Development, Project 5 Due: Simple Class Implementation |
 | 15 | Final Project Completion and Course Review: Project finalization, comprehensive review of key programming concepts, practice articulating technical decisions and code explanations. Course reflection discussions to prepare for exit exams. | Review All Chapters with Focus on Key Concepts, Exit Exam Study Guide | Final Project Due, Lab 15: Technical Communication Practice |
 | 16 | Reflective Exit Examinations: Individual oral defense sessions where students demonstrate their understanding of core programming concepts, explain their growth as programmers, and analyze their completed projects. No new content - focuses entirely on demonstrating mastery through structured discussions with instructor. | None - Focus on Exit Exam Preparation Guide | Individual Exit Exam Sessions Scheduled Throughout Week |
 
-*Note: Readings are based on "Python Programming: An Introduction to Computer Science" by John Zelle. Additional online resources and documentation will be provided throughout the course.*
+*Note: Readings are based on "Java: How to Program (11th Edition)". Additional online resources and documentation will be provided throughout the course.*
 
 ---
-Last Updated: 2024-12-23
-Version: 1.3.0 
+Last Updated: 2024-12-27
+Version: 1.0.0 
 [Change Log](./changelog.md)
