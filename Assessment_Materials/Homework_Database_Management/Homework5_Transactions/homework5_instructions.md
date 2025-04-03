@@ -38,7 +38,7 @@ In this lab, you’ll create a short, blog-style article explaining database tra
    - Keep jargon to a minimum and define any necessary technical terms.
 
 4. **Cite Sources**  
-   - If you reference external articles, books, or websites, include a brief citation (APA or MLA).  
+   - If you reference external articles, books, or websites, include a brief citation (APA or IEEE).  
    - Provide links for online resources.
 
 5. **Submit Your Draft**  
