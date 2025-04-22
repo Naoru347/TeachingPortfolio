@@ -69,7 +69,8 @@ Upon successful completion of this course, students will be able to:
    - Wireshark, Nmap, and basic Linux command-line tools
 
 2. **Textbook:**
-   - "CompTIA Security+ Guide to Network Security Fundamentals" by Mark Ciampa
+   - Grubb, S. (2021). *How Cybersecurity Really Works*. No Starch Press. [Required]
+   - Chapple, M., & Seidl, D. (2024). *CompTIA Security+ Certification Kit: Exam SY0-701* (7th ed.). Sybex. [Recommended]
 
 3. **Online Resources:**
    - Course website and GitHub repository
