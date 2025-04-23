@@ -42,7 +42,7 @@ You’ll complete this task using VirtualBox and the provided VM appliances.
    - Use screenshots, filtered logs, and code snippets where helpful
 
 ## Deliverables
-- Narrative report (1–2 pages), written in **collegenAPA format**, including:
+- Narrative report (1–2 pages), written in **college APA format**, including:
   - 12-point Times New Roman, Arial, Garamond, or Aptos font, double-spaced text, and 1-inch margins
   - Clear section headings
   - In-text citations for any sources used (e.g., manuals, documentation, external references)
