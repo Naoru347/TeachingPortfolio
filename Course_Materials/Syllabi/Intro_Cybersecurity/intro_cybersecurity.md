@@ -420,7 +420,7 @@ Remember: Our differences strengthen our learning community and prepare us for s
 | 2    | CIA Triad and Cybersecurity Principles               | Lab 2: CIA Triad Exploration                |
 | 3    | Networking Fundamentals                              | Lab 3: Basic Networking Concepts            |
 | 4    | Network Devices and Wireless Security                | Lab 4: Network Devices                      |
-| 5    | Operating Systems Overview                           | Project 1 Assigned: System Analysis         |
+| 5    | Operating Systems Overview                           | Project 1 Assigned: Security Analysis         |
 | 6    | System Hardening Techniques                          | Lab 5: System Hardening                     |
 | 7    | Malware Types and Attack Vectors                     | Lab 6: Malware Identification               |
 | 8    | Social Engineering and Phishing                      | Midterm Exam                                |
