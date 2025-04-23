@@ -60,7 +60,7 @@ You will take on the role of an entry-level cybersecurity analyst tasked with ev
   - In-text citations for any external sources used (e.g., NIST guidelines, vendor documentation, course readings)
   - A **References** page at the end with properly formatted APA citations
 - **Submission**: Export your final document as a PDF and upload it to the course LMS.
-- **Optional**: You may include a simple annotated diagram of the office network setup if it helps illustrate your analysis, but this is not required.
+- **Optional**: You may include a simple annotated diagram (e.g., LucidChart, Draw.io, etc.) of the office network setup if it helps illustrate your analysis, but this is not required.
 
 Be sure to cite any sources you consult, even if you're paraphrasing. Demonstrating responsible use of authoritative resources strengthens your credibility and helps develop professional habits for cybersecurity work.
 
