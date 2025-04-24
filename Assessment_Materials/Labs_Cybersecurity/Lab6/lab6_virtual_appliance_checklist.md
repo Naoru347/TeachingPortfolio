@@ -4,65 +4,83 @@
 ---
 
 ## 🖥 1. Choose Base OS & VirtualBox Specs
-- **Base OS:** Ubuntu 22.04 LTS (Desktop or lightweight flavor)
+- **Base OS:** Ubuntu 22.04 LTS (Desktop)
 - **VM Specs:**
-  - **RAM:** 1024 MB (minimum)
+  - **RAM:** 1024 MB
   - **Disk:** 10 GB dynamically allocated
   - **CPU:** 1 core
-  - **Video Memory:** 16 MB (3D Acceleration off)
-  - **Network Adapter:** NAT or Bridged (for IP commands to work)
+  - **Network Adapter:** NAT or Bridged
 
 ---
 
-## 🛠 2. Initial Virtual Machine Setup
-1. Create new VM in VirtualBox
-2. Name: `CLH-Lab6` or similar
-3. Set user credentials:
+## 🛠 2. Initial VM Setup
+1. Create a new VM in VirtualBox
+2. Set hostname: `lab6-student`
+3. Create user:
    - **Username:** `student`
    - **Password:** `lab6pass`
-4. Install Guest Additions (optional but helpful)
+4. Enable passwordless sudo for ease of use (optional)
 
 ---
 
-## 🌐 3. Configure Basic Environment
-- Ensure internet access for package installs
-- Set hostname (optional):
-```bash
-sudo hostnamectl set-hostname lab6-student
-```
+## 🌐 3. Network Settings
+- Set adapter to **NAT** (or Bridged if static IP needed)
+- Confirm internet access works inside VM
+- Optional: Set a static IP if desired for scan repeatability
 
 ---
 
 ## 🔧 4. Install Required Tools
-Run the following commands:
 ```bash
-sudo apt update
-sudo apt install -y net-tools iproute2 psmisc procps whois dnsutils \
+sudo apt update && sudo apt install -y \
+  net-tools iproute2 psmisc procps whois dnsutils \
   lsof man file tree less curl wget zip unzip \
-  openssh-server bash-completion systemd
-```
-
-Optional but helpful:
-```bash
-sudo apt install -y htop neofetch
+  openssh-server bash-completion systemd htop neofetch
 ```
 
 ---
 
-## 📁 5. Pre-Create Student Workspace
-- Create a `~/Lab6/` directory
-- Add a few test files:
+## 🧪 5. Seed the Environment with Discoverables
+
+### Files & Hidden Content
+- Create a working directory:
 ```bash
-mkdir ~/Lab6
-cd ~/Lab6
-wget https://example.com/seclab.txt -O seclab.txt
-mkdir .hiddenfiles
-touch .hiddenfiles/notes.md
+mkdir ~/Lab6 && cd ~/Lab6
 ```
+- Add files:
+```bash
+echo 'This is the target file' > seclab.txt
+mkdir .hidden && echo 'Secret notes' > .hidden/notes.txt
+```
+
+### Users & Groups
+- Create a low UID user manually (non-system):
+```bash
+sudo useradd -u 850 legacyuser
+```
+- Add `student` to `sudo` and `wireshark` groups:
+```bash
+sudo usermod -aG sudo,wireshark student
+```
+
+### Services & Processes
+- Enable a few services:
+```bash
+sudo systemctl enable ssh
+sudo systemctl enable cups
+```
+- Start an idle web server (optional):
+```bash
+sudo apt install -y apache2 && sudo systemctl start apache2
+```
+
+### Logs & System History
+- Reboot the VM 2–3 times before export to populate `last` log
+- Optionally simulate a crash by running `sudo shutdown now` and restarting manually
 
 ---
 
-## 📋 6. Clean Up & Prepare for Export
+## 📋 6. Clean Up & Export
 ```bash
 history -c
 sudo apt clean
@@ -70,29 +88,31 @@ sudo rm -rf /tmp/*
 sudo poweroff
 ```
 
----
-
-## 📦 7. Export the VM
-1. File → Export Appliance
-2. Export as `.ova`
-3. Use filename: `CLH_Lab6_VM.ova`
+### Export as OVA
+- Use: `Lab6_CLI_ScavengerHunt.ova`
+- File → Export Appliance → Follow prompts
 
 ---
 
-## 🧪 8. Test the VM
-- Re-import on a clean system
+## 🧪 7. Test Import & Checklist
+- Import into a clean VirtualBox instance
 - Verify:
   - Terminal opens
-  - All commands from lab work
-  - `student` user can access all directories and tools
-  - No saved states
+  - All tools installed
+  - `Lab6` directory with seeded files exists
+  - All accounts and services behave as expected
 
 ---
 
-## 📂 9. Distribute to Students
-- Upload `.ova` to LMS or shared drive
+## 📂 8. Distribution Notes
+- Upload `.ova` to LMS or cloud folder
 - Provide:
-  - Username/password
-  - Network type used
-  - Any startup instructions or troubleshooting tips
+  - Username: `student`
+  - Password: `lab6pass`
+  - Network adapter setting
+  - Brief troubleshooting section for VirtualBox (e.g., login delay, no network)
+
+---
+
+**Use this checklist to ensure each student VM includes consistent, traceable data for command-line discovery.**
 
