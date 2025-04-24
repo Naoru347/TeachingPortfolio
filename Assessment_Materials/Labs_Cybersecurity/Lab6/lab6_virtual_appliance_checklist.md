@@ -112,7 +112,3 @@ sudo poweroff
   - Network adapter setting
   - Brief troubleshooting section for VirtualBox (e.g., login delay, no network)
 
----
-
-**Use this checklist to ensure each student VM includes consistent, traceable data for command-line discovery.**
-
