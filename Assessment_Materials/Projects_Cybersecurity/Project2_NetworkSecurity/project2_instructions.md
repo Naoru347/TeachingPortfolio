@@ -1,4 +1,4 @@
-# Project 2: Network Security & Defense Lab
+# Project 2: Network Security & Defense Project
 
 ## Overview
 In this project, you will simulate the role of a cybersecurity technician responsible for configuring basic network defenses and analyzing vulnerabilities. You will work in a sandboxed environment using **VirtualBox with pre-configured networked virtual appliances**. This lab environment allows you to practice monitoring and securing a live network with multiple connected machines.
