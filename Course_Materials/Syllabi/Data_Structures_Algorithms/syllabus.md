@@ -96,9 +96,8 @@ By the end of this course, students will be able to:
 | Component         | Weight | Description                                                                 |
 |-------------------|-------:|-----------------------------------------------------------------------------|
 | Labs              |   30 % | Weekly hands-on labs implementing small DS/algorithm modules.                |
-| Projects          |   30 % | Three major milestones: core DS library, advanced ADT extensions, final integration. |
-| Midterm Exam      |   15 % | Written exam covering Weeks 1–7 (theory & short coding questions).          |
-| Final Project     |   15 % | Capstone: full software project demo, code repo, and report.               |
+| Projects          |   40 % | Three major milestones: core DS library, advanced ADT extensions, final integration. |
+| Midterm Exam      |   20 % | Written exam covering Weeks 1–7 (theory & short coding questions).          |
 | Oral Exit Exam    |    5 % | 10-minute viva on project design choices and algorithm analysis.            |
 | Participation     |    5 % | Engagement in discussions, code reviews, and peer debugging.                |
 
@@ -452,5 +451,5 @@ Remember: Our differences strengthen our learning community and prepare us for s
 
 ---
 
-**Last Updated:** April 29, 2025  
-**Version:** 1.1.0
+**Last Updated:** April 30, 2025  
+**Version:** 1.2.0

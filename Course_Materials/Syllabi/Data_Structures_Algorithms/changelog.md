@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.0] - 2025-04-30
+
+- Updated course requirements.
+
 ## [1.1.0] - 2025-04-29
 
 - Textbooks updated to include both accessible and actionable texts.
