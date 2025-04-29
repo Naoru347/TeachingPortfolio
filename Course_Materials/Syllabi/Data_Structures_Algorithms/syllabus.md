@@ -74,6 +74,7 @@ By the end of this course, students will be able to:
 
 2. **Textbook:**  
    - Goodrich, T., Tamassia, R., & Goldwasser, M. H. (2011). *Data Structures & Algorithms in Java* (6th ed.). Wiley. **[Required]**  
+   - Louridas, P. (2020). *Algorithms (The MIT Essential Knowledge Series)*. MIT Press **[Required]**
    - Levitin, A. (2018). *Introduction to the Design & Analysis of Algorithms* (3rd ed.). Pearson. **[Recommended]**
 
 3. **Online Resources:**  
@@ -451,5 +452,5 @@ Remember: Our differences strengthen our learning community and prepare us for s
 
 ---
 
-**Last Updated:** April 26, 2025  
-**Version:** 1.0.1
+**Last Updated:** April 29, 2025  
+**Version:** 1.1.0

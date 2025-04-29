@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0] - 2025-04-29
+
+- Textbooks updated to include both accessible and actionable texts.
+
 ## [1.0.0] - 2025-04-26
 
 - Document created.
