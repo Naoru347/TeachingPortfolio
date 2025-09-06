@@ -197,5 +197,3 @@
 - Poor repository organization
 - Missing README or build instructions
 - Unprofessional presentation quality
-
-This rubric is designed to provide clear expectations and fair evaluation of your Milestone 2 submission. Focus on demonstrating both technical competence and analytical thinking in your implementation and analysis.
