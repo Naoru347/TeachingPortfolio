@@ -74,6 +74,7 @@ By the end of this course, students will be able to:
 
 2. **Textbook:**  
    - Goodrich, T., Tamassia, R., & Goldwasser, M. H. (2011). *Data Structures & Algorithms in Java* (6th ed.). Wiley. **[Required]**  
+   - Louridas, P. (2020). *Algorithms (The MIT Essential Knowledge Series)*. MIT Press **[Required]**
    - Levitin, A. (2018). *Introduction to the Design & Analysis of Algorithms* (3rd ed.). Pearson. **[Recommended]**
 
 3. **Online Resources:**  
@@ -95,9 +96,8 @@ By the end of this course, students will be able to:
 | Component         | Weight | Description                                                                 |
 |-------------------|-------:|-----------------------------------------------------------------------------|
 | Labs              |   30 % | Weekly hands-on labs implementing small DS/algorithm modules.                |
-| Projects          |   30 % | Three major milestones: core DS library, advanced ADT extensions, final integration. |
-| Midterm Exam      |   15 % | Written exam covering Weeks 1–7 (theory & short coding questions).          |
-| Final Project     |   15 % | Capstone: full software project demo, code repo, and report.               |
+| Projects          |   40 % | Three major milestones: core DS library, advanced ADT extensions, final integration. |
+| Midterm Exam      |   20 % | Written exam covering Weeks 1–7 (theory & short coding questions).          |
 | Oral Exit Exam    |    5 % | 10-minute viva on project design choices and algorithm analysis.            |
 | Participation     |    5 % | Engagement in discussions, code reviews, and peer debugging.                |
 
@@ -451,5 +451,5 @@ Remember: Our differences strengthen our learning community and prepare us for s
 
 ---
 
-**Last Updated:** April 26, 2025  
-**Version:** 1.0.1
+**Last Updated:** April 30, 2025  
+**Version:** 1.2.0

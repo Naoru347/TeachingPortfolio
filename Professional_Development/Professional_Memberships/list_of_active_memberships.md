@@ -1,0 +1,13 @@
+# Professional Memberships
+- Association for the Advancement of Science (AAAS), 2025
+- Computer Science Teachers Association (CSTA), 2025
+- CSTA Maryland, 2025
+- Mid-Atlantic Association for Language Learning Technology, 2024
+- Association for Computing Machinery (ACM), 2024
+- ACM Applied Computing Special Interest Group (SIG), 2024
+- ACM SIG, 2024
+- International Society for Technology in Eduction (ISTE), 2024
+- Institute for Electrical and Electronics Engineering (IEEE), 2024
+- IEEE Computer Society, 2024
+- IEEE Education Society, 2024
+- Queer in AI, 2023
