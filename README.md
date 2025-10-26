@@ -59,28 +59,16 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
     - Provides proof-of-membership for relevant and tangential professional organizations
 
 ## Assessment_Materials/
-- Project rubrics
-- Code review guidelines
-- Lab evaluation criteria
-- Portfolio project templates
-  - **./Reflective_Exit_Exams/**
-    - Provides exit exam standard protocol for all courses
-    - Contains a sample question bank organized by class-type
-    - Outlines a sample student preparation guides
-    - Delimits grading and assessment protocol used by the instructor to ensure fairness and conformity of experience
-  - **./Regular_Projects_Intro/**
-    - Focuses on the *Introduction to Programming* course
-    - Provides student assignment prompts
-    - Provides unified assessment rubric for use on all regular projects
-  - **./Final_Project_Intro/**
-    - Focuses on the *Introduction to Programming* course
-    - Provides student assignment prompt
-    - Includes requisite starter code
-    - Outlines a sample work-plan for students
-  - **./Labs_Intro/**
-    - Lab instructions for 15 weeks of labs
-    - Starter code for the first 5-7 weeks of labs to scaffold learners activities
-    - Additional tracking and data files as needed
+-Each subdirectory contains materials such as:
+- Project instructions, guides, and rubrics
+- Exam question banks
+- Lab instructions and TA guides
+- Reflective exit exam question banks and student guides
+  - **./Cybersecurity/**
+  - **./Data_Structures_Algorithms/**
+  - **./Database_Management/**
+  - **./Intro_to_Programming_Java/**
+  - **./Intro_to_Programming_Python/**
 
 ## Connection to Best Practices
 This portfolio emphasizes:
@@ -90,24 +78,8 @@ This portfolio emphasizes:
 - Inclusive teaching practices
 - Real-world applications
 
-## A Note on Teaching Preparation Materials
-The Preparation folder documents my systematic approach to course development and continuous improvement:
-- Pre-semester planning documents
-- Concept mapping and knowledge structure analysis
-- Common misconception identification and remediation strategies
-- Teaching reflection templates and completed reflections
-- Resource organization and accessibility planning
-
-## A Note on Template Resources
-The Templates folder contains standardized formats designed to:
-- Ensure consistent assignment structure across courses
-- Provide clear documentation guidelines for students
-- Facilitate effective peer review processes
-- Enable meaningful student feedback collection
-- Support systematic project development and presentation
-
 ## Development Timeline
-This is an active portfolio that grows with my teaching experience. Major updates occur monthly, with ongoing additions of new materials and refinements based on teaching experiences and student feedback.
+Active work on this portfolio began in December 2023 and continued through October 2025. Development started from the *Intro to Programming* courses and concluded with the AI Literacy and AI Security courses. During this time, I changed careers from a teaching professor at a private 4-year university to a school-level administrator at a public 2-year college.
 
 ## Usage
 Feel free to explore these materials. If you use or adapt any content, please provide appropriate attribution. For specific inquiries or collaboration opportunities, please open an issue or reach out directly.
@@ -121,5 +93,6 @@ While this is a personal teaching portfolio, I welcome feedback and suggestions 
 ## License
 
 Copyright © 2025 Joshua M. Paiz. All rights reserved.
+
 ---
 *This portfolio is represents an ongoing and in-progress journey in computer science education.*
