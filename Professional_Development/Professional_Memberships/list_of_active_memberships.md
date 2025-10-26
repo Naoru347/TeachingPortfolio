@@ -5,7 +5,7 @@
 - Mid-Atlantic Association for Language Learning Technology, 2024
 - Association for Computing Machinery (ACM), 2024
 - ACM Applied Computing Special Interest Group (SIG), 2024
-- ACM SIG, 2024
+- ACM SIGAI, 2024
 - International Society for Technology in Eduction (ISTE), 2024
 - Institute for Electrical and Electronics Engineering (IEEE), 2024
 - IEEE Computer Society, 2024

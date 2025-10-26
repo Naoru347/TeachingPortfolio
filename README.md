@@ -7,75 +7,54 @@ This repository contains my comprehensive teaching portfolio for undergraduate C
 
 ### Course_Materials/
 
+- **Portfolio Reflection**
 - **./Syllabi/**
   - Introduction to Programming
-  - Data Structures
-  - Algorithms
-  - Database Systems
-  - Web Development
+    - Java-version
+    - Python-version
+  - Data Structures & Algorithms
+  - Introduction to Database Management
+  - Introduction to Cybersecurity
+  - SecAI Course Sequence
+    - Introduction to Securing AI
+    - Advanced AI Security and Defense
+    - Introduction to Securing AI Reading List
+    - Advanced AI Security and Defense Reading List
+  - AI in Practice
 
 - **./Preparation/**
-  - Concept maps
-  - Learning progression plans
-  - Teaching reflection notes
-  - Student misconception guides
-  - Resource organization strategies
-  - Personal study guides to prepare for teaching
-  - Personal study code to prepare for teaching
+  - Study Code
+  - Study Guides
 
 - **./Templates/**
-  - Assignment templates
-  - Lab report formats
-  - Project documentation guides
-  - Peer review forms
-  - Student feedback questionnaires
+  - Style Guide
+  - Syllabus Template
 
-- **./Lesson_Plans/**
-  - Daily lesson outlines
-  - Activity timing guides
-  - Learning objectives
-  - Assessment strategies
+- **./Sliide_Decks/**
+  - Jailbraking & Prompt Injection
+  - ML & NLP Intro Lecture
 
-- **./Teaching_Resources/**
-  - Lecture slides
-  - Code demonstrations
-  - Lab activities
-  - Project specifications
-  - Assessment rubrics
-
-### Core_Concept_Guides/
-
-Detailed teaching guides and materials for fundamental CS concepts:
-
-- **./Programming_Foundations/**
-  - Data types and memory representation
-  - Control structures and program flow
-  - Functions and methods
-  - Error handling and debugging
-
-- **./Data_Structures/**
-  - Arrays and linked lists
-  - Stacks and queues
-  - Trees and graphs
-  - Algorithm analysis
-
-### Teaching_Demonstrations/
-- Recorded teaching sessions
-- Example code walkthroughs
-- Interactive learning materials
-- Visualization tools
+- **./Instructional_Documents/**
+  - PDF and Markdown versions of the following handouts:
+    - IP Addressing Explainer
+    - (In)secure Protocol Explainer
+    - Networking Comprehension Quiz w/ Answer Key and Review Focuser
+    - Network Devices Explainer
+    - Networking Crash Course Tutor's Notes
+    - OSI Reference Model Explainer
+    - Port Number Quick Reference Guide
+- **./Curricular_Documents/**
+  - AI Practitioner AAS Degree Path Outline (Career-focused)
+  - AI Developer AS Degree Path Outline (Transfer-focused)
 
 ### Professional_Development/
-- Statement of teaching philosophy
-- Industry certifications
-- Conference presentations
-- Professional memberships
+- Statement of Teaching Philosophy
   - **./Continuing_Education/**
     - Lists all completed continuing education (e.g., professions certificates and short courses)
   - **./Degrees/**
     - Provides copies of all completed degress
   - **./Industry_Certifications/**
-    - Provides copies of all awarded industry certifications (e.g, Security+, AWS Cloud Practitioner, CCNA, etc.)
+    - Provides copies of all awarded industry certifications (e.g, Security+, AWS Solutions Architect, Google Cloud GenAI Leader, etc.)
   - **./Professional_Memberships/**
     - Provides proof-of-membership for relevant and tangential professional organizations
 
